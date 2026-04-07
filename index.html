@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APEX SETTINGS — Coach Gaming 2026</title>
+  <meta name="description" content="Optimise ton aim, tes réglages et tes performances sur Warzone BO7 et Fortnite 2026." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ░░ LOADER ░░ -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-hex"></div>
+      <div class="loader-text">APEX SETTINGS</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <div class="loader-status" id="loaderStatus">Initialisation du système…</div>
+    </div>
+  </div>
+
+  <!-- ░░ CANVAS PARTICLES ░░ -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- ░░ NAVIGATION ░░ -->
+  <nav id="navbar">
+    <div class="nav-brand">
+      <span class="brand-icon">⬡</span>
+      <span class="brand-name">APEX<span class="brand-accent">SETTINGS</span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link">Accueil</a></li>
+      <li><a href="#quiz" class="nav-link">Profil</a></li>
+      <li><a href="#settings" class="nav-link">Réglages</a></li>
+      <li><a href="#meta" class="nav-link">Méta</a></li>
+      <li><a href="#coaching" class="nav-link">Coaching</a></li>
+      <li><a href="#training" class="nav-link">Training</a></li>
+    </ul>
+    <button class="nav-cta" onclick="scrollToSection('quiz')">Mes Réglages</button>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ░░ HERO SECTION ░░ -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        WARZONE BO7 &amp; FORTNITE — SAISON 2026
+      </div>
+      <h1 class="hero-title reveal">
+        Domine tes games.<br/>
+        <span class="gradient-text">Optimise ton aim.</span><br/>
+        Deviens un monstre.
+      </h1>
+      <p class="hero-sub reveal">
+        Analyse ton style de jeu. Génère tes réglages parfaits.<br/>
+        Coach IA personnel — 100% gratuit.
+      </p>
+      <div class="hero-actions reveal">
+        <button class="btn-primary" onclick="scrollToSection('quiz')">
+          <span class="btn-icon">⚡</span>
+          Trouver mes réglages
+        </button>
+        <button class="btn-ghost" onclick="scrollToSection('meta')">
+          <span class="btn-icon">🔥</span>
+          Voir la Méta 2026
+        </button>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat-item">
+          <span class="stat-num" data-target="47200">0</span>
+          <span class="stat-label">Profils créés</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="98">0</span><span class="stat-unit">%</span>
+          <span class="stat-label">Satisfaction</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="2026">0</span>
+          <span class="stat-label">Données à jour</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="crosshair-anim">
+        <div class="ch-ring ch-ring-1"></div>
+        <div class="ch-ring ch-ring-2"></div>
+        <div class="ch-ring ch-ring-3"></div>
+        <div class="ch-center"></div>
+        <div class="ch-line ch-top"></div>
+        <div class="ch-line ch-bottom"></div>
+        <div class="ch-line ch-left"></div>
+        <div class="ch-line ch-right"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ MOTIVATION DU JOUR ░░ -->
+  <section class="motivation-strip">
+    <div class="motivation-inner">
+      <span class="motiv-icon">💬</span>
+      <span class="motiv-text" id="motivText">Chargement…</span>
+    </div>
+  </section>
+
+  <!-- ░░ QUIZ / PROFIL ░░ -->
+  <section id="quiz" class="section quiz-section">
+    <div class="section-header reveal">
+      <span class="section-tag">01 / Profil</span>
+      <h2 class="section-title">Crée ton <span class="gradient-text">Profil Joueur</span></h2>
+      <p class="section-sub">Réponds à 7 questions. On génère tes réglages parfaits en 10 secondes.</p>
+    </div>
+
+    <div class="quiz-container reveal">
+      <div class="quiz-progress">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+        <span class="progress-text" id="progressText">Question 1 / 7</span>
+      </div>
+
+      <!-- Q1 -->
+      <div class="quiz-step active" data-step="1">
+        <h3 class="quiz-question">🎮 Ton jeu principal ?</h3>
+        <div class="quiz-options">
+          <button class="option-btn" data-key="game" data-value="warzone">
+            <span class="opt-icon">💥</span>
+            <span class="opt-label">Warzone Black Ops 7</span>
+            <span class="opt-tag">2026</span>
+          </button>
+          <button class="option-btn" data-key="game" data-value="fortnite">
+            <span class="opt-icon">🌀</span>
+            <span class="opt-label">Fortnite</span>
+            <span class="opt-tag">2026</span>
+          </button>
+          <button class="option-btn" data-key="game" data-value="both">
+            <span class="opt-icon">⚡</span>
+            <span class="opt-label">Les deux</span>
+            <span class="opt-tag">COMBO</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q2 -->
+      <div class="quiz-step" data-step="2">
+        <h3 class="quiz-question">🖥️ Ta plateforme ?</h3>
+        <div class="quiz-options">
+          <button class="option-btn" data-key="platform" data-value="pc">
+            <span class="opt-icon">🖥️</span>
+            <span class="opt-label">PC</span>
+          </button>
+          <button class="option-btn" data-key="platform" data-value="ps">
+            <span class="opt-icon">🎮</span>
+            <span class="opt-label">PlayStation</span>
+          </button>
+          <button class="option-btn" data-key="platform" data-value="xbox">
+            <span class="opt-icon">🟢</span>
+            <span class="opt-label">Xbox</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="quiz-step" data-step="3">
+        <h3 class="quiz-question">🔫 Ton style de jeu ?</h3>
+        <div class="quiz-options">
+          <button class="option-btn" data-key="style" data-value="aggressive">
+            <span class="opt-icon">⚔️</span>
+            <span class="opt-label">Agressif</span>
+            <span class="opt-tag">Rush</span>
+          </button>
+          <button class="option-btn" data-key="style" data-value="defensive">
+            <span class="opt-icon">🛡️</span>
+            <span class="opt-label">Défensif</span>
+            <span class="opt-tag">Solid</span>
+          </button>
+          <button class="option-btn" data-key="style" data-value="sniper">
+            <span class="opt-icon">🎯</span>
+            <span class="opt-label">Sniper</span>
+            <span class="opt-tag">Long range</span>
+          </button>
+          <button class="option-btn" data-key="style" data-value="polyvalent">
+            <span class="opt-icon">🔄</span>
+            <span class="opt-label">Polyvalent</span>
+            <span class="opt-tag">Flex</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q4 -->
+      <div class="quiz-step" data-step="4">
+        <h3 class="quiz-question">📊 Ton niveau actuel ?</h3>
+        <div class="quiz-options">
+          <button class="option-btn" data-key="level" data-value="beginner">
+            <span class="opt-icon">🌱</span>
+            <span class="opt-label">Débutant</span>
+          </button>
+          <button class="option-btn" data-key="level" data-value="intermediate">
+            <span class="opt-icon">⚡</span>
+            <span class="opt-label">Intermédiaire</span>
+          </button>
+          <button class="option-btn" data-key="level" data-value="tryhard">
+            <span class="opt-icon">💀</span>
+            <span class="opt-label">Tryhard</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="quiz-step" data-step="5">
+        <h3 class="quiz-question">⚠️ Ton problème principal ?</h3>
+        <div class="quiz-options">
+          <button class="option-btn" data-key="problem" data-value="precision">
+            <span class="opt-icon">🎯</span>
+            <span class="opt-label">Mauvaise précision</span>
+          </button>
+          <button class="option-btn" data-key="problem" data-value="tracking">
+            <span class="opt-icon">👁️</span>
+            <span class="opt-label">Mauvais tracking</span>
+          </button>
+          <button class="option-btn" data-key="problem" data-value="sensi-fast">
+            <span class="opt-icon">💨</span>
+            <span class="opt-label">Sensi trop rapide</span>
+          </button>
+          <button class="option-btn" data-key="problem" data-value="sensi-slow">
+            <span class="opt-icon">🐌</span>
+            <span class="opt-label">Sensi trop lente</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q6 -->
+      <div class="quiz-step" data-step="6">
+        <h3 class="quiz-question">📈 Ton FPS moyen ?</h3>
+        <div class="quiz-options">
+          <button class="option-btn" data-key="fps" data-value="low">
+            <span class="opt-icon">🔴</span>
+            <span class="opt-label">Moins de 60 FPS</span>
+          </button>
+          <button class="option-btn" data-key="fps" data-value="medium">
+            <span class="opt-icon">🟡</span>
+            <span class="opt-label">60–120 FPS</span>
+          </button>
+          <button class="option-btn" data-key="fps" data-value="high">
+            <span class="opt-icon">🟢</span>
+            <span class="opt-label">120–240 FPS</span>
+          </button>
+          <button class="option-btn" data-key="fps" data-value="ultra">
+            <span class="opt-icon">⚡</span>
+            <span class="opt-label">240+ FPS</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Q7 -->
+      <div class="quiz-step" data-step="7">
+        <h3 class="quiz-question">📡 Ton ping moyen ?</h3>
+        <div class="quiz-options">
+          <button class="option-btn" data-key="ping" data-value="good">
+            <span class="opt-icon">🟢</span>
+            <span class="opt-label">Moins de 30ms</span>
+            <span class="opt-tag">Excellent</span>
+          </button>
+          <button class="option-btn" data-key="ping" data-value="ok">
+            <span class="opt-icon">🟡</span>
+            <span class="opt-label">30–60ms</span>
+            <span class="opt-tag">Correct</span>
+          </button>
+          <button class="option-btn" data-key="ping" data-value="bad">
+            <span class="opt-icon">🟠</span>
+            <span class="opt-label">60–100ms</span>
+            <span class="opt-tag">Élevé</span>
+          </button>
+          <button class="option-btn" data-key="ping" data-value="terrible">
+            <span class="opt-icon">🔴</span>
+            <span class="opt-label">100ms+</span>
+            <span class="opt-tag">Critique</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="quiz-nav">
+        <button class="btn-ghost quiz-prev" id="quizPrev" onclick="quizPrev()" style="visibility:hidden">← Retour</button>
+        <button class="btn-primary quiz-next" id="quizNext" onclick="quizNext()" disabled>Suivant →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PROFIL + RÉGLAGES ░░ -->
+  <section id="settings" class="section settings-section">
+    <div class="section-header reveal">
+      <span class="section-tag">02 / Réglages</span>
+      <h2 class="section-title">Ton <span class="gradient-text">Aim Profile</span></h2>
+    </div>
+
+    <div id="settingsPlaceholder" class="settings-placeholder reveal">
+      <div class="placeholder-icon">🎮</div>
+      <p>Complète le questionnaire ci-dessus pour générer<br/>tes réglages personnalisés.</p>
+      <button class="btn-ghost" onclick="scrollToSection('quiz')">Accéder au Quiz</button>
+    </div>
+
+    <div id="settingsResult" class="settings-result" style="display:none">
+      <div class="profile-header reveal">
+        <div class="profile-badge" id="profileBadge"></div>
+        <div class="profile-info">
+          <h3 class="profile-name" id="profileName"></h3>
+          <p class="profile-desc" id="profileDesc"></p>
+        </div>
+        <button class="btn-ghost recalibrate-btn" onclick="resetQuiz()">🔄 Recalibrer</button>
+      </div>
+
+      <div class="settings-grid reveal" id="settingsGrid"></div>
+
+      <div class="aim-profile-card reveal" id="aimProfileCard"></div>
+    </div>
+  </section>
+
+  <!-- ░░ MÉTA 2026 ░░ -->
+  <section id="meta" class="section meta-section">
+    <div class="section-header reveal">
+      <span class="section-tag">03 / Méta</span>
+      <h2 class="section-title">Armes <span class="gradient-text">Méta 2026</span></h2>
+      <p class="section-sub">Données mises à jour hebdomadairement via <code>data.json</code></p>
+    </div>
+
+    <div class="meta-tabs reveal">
+      <button class="meta-tab active" data-game="warzone" onclick="switchMetaTab('warzone')">💥 Warzone BO7</button>
+      <button class="meta-tab" data-game="fortnite" onclick="switchMetaTab('fortnite')">🌀 Fortnite</button>
+    </div>
+
+    <div class="meta-grid reveal" id="metaGrid"></div>
+  </section>
+
+  <!-- ░░ COACHING ░░ -->
+  <section id="coaching" class="section coaching-section">
+    <div class="section-header reveal">
+      <span class="section-tag">04 / Coaching</span>
+      <h2 class="section-title">Tips <span class="gradient-text">Intelligents</span></h2>
+    </div>
+
+    <div class="tips-container reveal" id="tipsContainer">
+      <div class="tips-placeholder">
+        <p>Complète ton profil pour recevoir des tips personnalisés.</p>
+        <button class="btn-ghost" onclick="scrollToSection('quiz')">Créer mon profil</button>
+      </div>
+    </div>
+
+    <div class="tips-general reveal">
+      <h3 class="tips-cat-title">📌 Conseils Universels 2026</h3>
+      <div class="tips-grid" id="tipsGeneral"></div>
+    </div>
+  </section>
+
+  <!-- ░░ TRAINING ░░ -->
+  <section id="training" class="section training-section">
+    <div class="section-header reveal">
+      <span class="section-tag">05 / Training</span>
+      <h2 class="section-title">Routine <span class="gradient-text">Quotidienne</span></h2>
+    </div>
+
+    <div class="training-layout">
+      <div class="training-drills reveal">
+        <h3 class="drills-title">🏋️ Drills du Jour</h3>
+        <div class="drills-grid" id="drillsGrid"></div>
+      </div>
+
+      <div class="training-sidebar">
+        <!-- Timer -->
+        <div class="timer-card reveal">
+          <h3 class="timer-title">⏱️ Timer d'Entraînement</h3>
+          <div class="timer-display" id="timerDisplay">00:00</div>
+          <div class="timer-controls">
+            <button class="timer-btn" onclick="setTimer(300)">5 min</button>
+            <button class="timer-btn" onclick="setTimer(600)">10 min</button>
+            <button class="timer-btn" onclick="setTimer(900)">15 min</button>
+          </div>
+          <div class="timer-actions">
+            <button class="btn-primary" id="timerStartBtn" onclick="toggleTimer()">▶ Démarrer</button>
+            <button class="btn-ghost" onclick="resetTimer()">↺ Reset</button>
+          </div>
+        </div>
+
+        <!-- Checklist -->
+        <div class="checklist-card reveal">
+          <h3 class="checklist-title">✅ Checklist Journalière</h3>
+          <div class="checklist" id="checklist"></div>
+          <button class="btn-ghost checklist-reset" onclick="resetChecklist()">Réinitialiser</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PSEUDO GENERATOR ░░ -->
+  <section class="section pseudo-section">
+    <div class="section-header reveal">
+      <span class="section-tag">Bonus</span>
+      <h2 class="section-title">Générateur de <span class="gradient-text">Pseudos</span></h2>
+    </div>
+    <div class="pseudo-container reveal">
+      <div class="pseudo-result" id="pseudoResult">
+        <span class="pseudo-text" id="pseudoText">???</span>
+        <span class="pseudo-type" id="pseudoType"></span>
+      </div>
+      <div class="pseudo-controls">
+        <button class="btn-primary" onclick="generatePseudo('tryhard')">💀 Style Tryhard</button>
+        <button class="btn-ghost" onclick="generatePseudo('chill')">😎 Style Chill</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-icon">⬡</span>
+        <span>APEX<span class="brand-accent">SETTINGS</span></span>
+      </div>
+      <p class="footer-desc">Coach gaming IA pour Warzone BO7 &amp; Fortnite 2026.<br/>Données mises à jour hebdomadairement.</p>
+      <div class="footer-links">
+        <a href="#hero">Accueil</a>
+        <a href="#quiz">Profil</a>
+        <a href="#meta">Méta</a>
+        <a href="#training">Training</a>
+      </div>
+      <p class="footer-copy">© 2026 ApexSettings — Fait pour les gamers, par des gamers.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+            </html>
+          

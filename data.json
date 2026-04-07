@@ -1,0 +1,214 @@
+{
+  "lastUpdate": "2026-04-07",
+  "version": "S4.2",
+
+  "meta": {
+    "warzone": [
+      {
+        "name": "HRM-9 Phantom",
+        "type": "SMG",
+        "tier": "S",
+        "ttk": "320ms",
+        "range": "Court/Moyen",
+        "recoil": "Faible",
+        "style": ["Agressif", "Polyvalent"],
+        "attachments": ["Canon: Suppressor Mk4", "Crosse: Combat Pro", "Chargeur: 60 Balles", "Laser: FSS OLE-V", "Grip: Recoil Pad"],
+        "tip": "Idéal pour les rushes en intérieur. Couple avec un sniper pour le long range.",
+        "emoji": "🔫"
+      },
+      {
+        "name": "XR-90 Tactical",
+        "type": "Assault Rifle",
+        "tier": "S",
+        "ttk": "410ms",
+        "range": "Moyen/Long",
+        "recoil": "Moyen",
+        "style": ["Défensif", "Polyvalent"],
+        "attachments": ["Canon: Longshot Barrel", "Viseur: VLK 4x", "Chargeur: 45 Balles", "Grip: Commando", "Crosse: Precision Stock"],
+        "tip": "La polyvalence absolue de la méta S4. Fonctionne à toutes les portées.",
+        "emoji": "⚡"
+      },
+      {
+        "name": "Ghost-Tac Sniper",
+        "type": "Sniper",
+        "tier": "A",
+        "ttk": "One Shot",
+        "range": "Très Long",
+        "recoil": "Nul",
+        "style": ["Sniper", "Défensif"],
+        "attachments": ["Canon: 26.5 Match Grade", "Viseur: Forge Tac Delta 4", "Crosse: FSS Precision", "Munitions: .408 Subsonic", "Grip: FTAC Ripper 56"],
+        "tip": "OSK au torse avec le bon build. Maîtrise le repositionnement post-shot.",
+        "emoji": "🎯"
+      },
+      {
+        "name": "Void-9 SMG",
+        "type": "SMG",
+        "tier": "A",
+        "ttk": "350ms",
+        "range": "Court",
+        "recoil": "Très Faible",
+        "style": ["Agressif"],
+        "attachments": ["Canon: Cut Down Barrel", "Laser: Kimura RYL33", "Chargeur: 50 Balles Extended", "Grip: Sakin ZX Grip", "Crosse: Agile Stock"],
+        "tip": "Le meta du close range agressif. Mouvement maximal activé.",
+        "emoji": "💨"
+      },
+      {
+        "name": "LMG Sentinel",
+        "type": "LMG",
+        "tier": "B",
+        "ttk": "390ms",
+        "range": "Moyen",
+        "recoil": "Moyen",
+        "style": ["Défensif", "Polyvalent"],
+        "attachments": ["Canon: Heavy Barrel", "Viseur: Mk.23 Reflector", "Chargeur: 100 Balles", "Grip: Demo Cleanshot", "Crosse: Demo Fade"],
+        "tip": "100 balles pour tenir les zones. Peu de rechargement = avantage tactique.",
+        "emoji": "🛡️"
+      },
+      {
+        "name": "Phantom-AR Elite",
+        "type": "Assault Rifle",
+        "tier": "B",
+        "ttk": "430ms",
+        "range": "Long",
+        "recoil": "Élevé",
+        "style": ["Sniper", "Défensif"],
+        "attachments": ["Canon: Marksman Barrel", "Viseur: VLK 6x Aimpoint", "Chargeur: 30 Balles", "Grip: Crosse Legit Pro", "Laser: FSS OLE-V Laser"],
+        "tip": "Excellent pour les séquences mid-long. Maîtrise le recul en burst.",
+        "emoji": "🎖️"
+      }
+    ],
+    "fortnite": [
+      {
+        "name": "Striker AR MK2",
+        "type": "Assault Rifle",
+        "tier": "S",
+        "ttk": "350ms",
+        "range": "Moyen/Long",
+        "recoil": "Faible",
+        "style": ["Polyvalent", "Agressif"],
+        "attachments": ["Scope: 2x Tactical", "Mag: Extended", "Stock: Combat"],
+        "tip": "Le meilleur AR de la saison. Fonctionne en box fight comme en build fight.",
+        "emoji": "⭐"
+      },
+      {
+        "name": "Nova Shotgun",
+        "type": "Shotgun",
+        "tier": "S",
+        "ttk": "OSK",
+        "range": "Court",
+        "recoil": "Moyen",
+        "style": ["Agressif"],
+        "attachments": ["Ammo: Slug Shells", "Barrel: Choke", "Grip: Combat"],
+        "tip": "OSK possible en hitbox tête. Le combo + AR domine la méta box fight.",
+        "emoji": "💥"
+      },
+      {
+        "name": "Phantom SMG",
+        "type": "SMG",
+        "tier": "A",
+        "ttk": "300ms",
+        "range": "Court",
+        "recoil": "Très Faible",
+        "style": ["Agressif", "Polyvalent"],
+        "attachments": ["Mag: Drum 50", "Barrel: Suppressed", "Stock: Agile"],
+        "tip": "Parfait pour les charges rapides. Idéal pour les joueurs mobiles.",
+        "emoji": "🌀"
+      },
+      {
+        "name": "Recon Sniper",
+        "type": "Sniper",
+        "tier": "A",
+        "ttk": "One Shot",
+        "range": "Très Long",
+        "recoil": "Nul",
+        "style": ["Sniper"],
+        "attachments": ["Scope: 4x Precision", "Ammo: High Velocity", "Stock: Precision"],
+        "tip": "OSK tête garantie. Repositionne-toi immédiatement après chaque tir.",
+        "emoji": "🎯"
+      }
+    ]
+  },
+
+  "tips": {
+    "universal": [
+      { "cat": "Positionnement", "icon": "🗺️", "title": "Hauteur = Avantage", "desc": "Sécurise toujours le high ground. La hauteur te donne vision et couverture supérieure. +40% de survie en moyenne." },
+      { "cat": "Gunfight", "icon": "⚔️", "title": "Burst Control", "desc": "Tire en bursts de 3-4 balles au lieu d'arroser. Le recul est exponentiel. Contrôle = précision." },
+      { "cat": "Rotation", "icon": "🔄", "title": "Move Avant la Zone", "desc": "Rotate toujours avant la fermeture. Les rotations tardives = 80% des morts en fin de game." },
+      { "cat": "Mental", "icon": "🧠", "title": "Analyse tes Morts", "desc": "Après chaque mort, demande-toi pourquoi. Positionnement ? Timing ? Réglages ? C'est ainsi qu'on progresse." },
+      { "cat": "Aim", "icon": "🎯", "title": "Warm-up Obligatoire", "desc": "10 minutes de warm-up avant chaque session. Les pros le font sans exception. Aim trainer ou customs." },
+      { "cat": "Performance", "icon": "⚡", "title": "Optimise ton PC/Console", "desc": "Ferme toutes les applications en arrière-plan. Chaque FPS gagné améliore ton temps de réaction." }
+    ],
+    "byStyle": {
+      "aggressive": [
+        { "icon": "🔥", "title": "Entry fragger mindset", "desc": "Annonce toujours ta présence en entrant le premier. Surprends l'adversaire par ta vitesse." },
+        { "icon": "💨", "title": "Slide-cancel en permanence", "desc": "Le mouvement constant te rend imprévisible. Slide-cancel toutes les 2 secondes en engagement." },
+        { "icon": "⚡", "title": "SMG + AR combo", "desc": "Porte toujours un SMG pour le close et un AR pour le mid. Adapte ton arme à la distance." }
+      ],
+      "defensive": [
+        { "icon": "🛡️", "title": "Choke points", "desc": "Identifie les points de passage obligatoires. Tiens-les et laisse les ennemis venir à toi." },
+        { "icon": "👁️", "title": "Intel avant tout", "desc": "Écoute les pas, utilise la mini-map. L'information est ton atout principal." },
+        { "icon": "🔄", "title": "Rotation sécurisée", "desc": "Ne prends jamais de risques inutiles. Une mort sans kill = perte nette. Joue les échanges favorables." }
+      ],
+      "sniper": [
+        { "icon": "🎯", "title": "Pixel perfect ADS", "desc": "Ralentis ta sensi en ADS. La précision vaut plus que la vitesse en long range." },
+        { "icon": "📐", "title": "Anticipe le mouvement", "desc": "Vise là où l'ennemi VA, pas là où il est. Le bullet travel time est réel." },
+        { "icon": "🌬️", "title": "Contrôle de la respiration", "desc": "Fais une pause avant chaque tir crucial. Même en jeu, le timing mental compte." }
+      ],
+      "polyvalent": [
+        { "icon": "🔀", "title": "Lit le jeu en temps réel", "desc": "Adapte-toi constamment. Agressif si tu domines, défensif si tu es en danger." },
+        { "icon": "🗣️", "title": "Communication clé", "desc": "Partage l'info à ton équipe. Le polyvalent est souvent le meilleur shot-caller." },
+        { "icon": "📦", "title": "Loot efficace", "desc": "Équipe-toi vite. Le polyvalent a besoin d'options. Priorise le chargeur et les kits." }
+      ]
+    }
+  },
+
+  "training": {
+    "drills": [
+      { "id": "flick", "name": "Flick Aim", "icon": "⚡", "duration": "5 min", "desc": "Cible des ennemis lointains en un seul mouvement rapide. Améliore les réflexes et la précision sur cibles mobiles.", "intensity": "Medium", "benefit": "+Réflexes" },
+      { "id": "tracking", "name": "Tracking Smooth", "icon": "👁️", "duration": "5 min", "desc": "Suis une cible en mouvement continu. Entraîne ton aim à coller sur les ennemis qui courent.", "intensity": "Low", "benefit": "+Tracking" },
+      { "id": "recoil", "name": "Recoil Control", "icon": "🎯", "duration": "5 min", "desc": "Spray une cible fixe, puis analyse le pattern. Mémorise et compense le recul de ton arme META.", "intensity": "High", "benefit": "+Précision" },
+      { "id": "micro", "name": "Micro Adjustments", "icon": "🔬", "duration": "5 min", "desc": "Petits ajustements de visée sur des cibles minuscules. Parfait pour le head-glitching.", "intensity": "High", "benefit": "+Précision" },
+      { "id": "movement", "name": "Movement + Aim", "icon": "💨", "duration": "5 min", "desc": "Vise en te déplaçant constamment. Simule de vrais gunfights avec slide/jump.", "intensity": "High", "benefit": "+Combat" },
+      { "id": "ads", "name": "ADS Speed", "icon": "🔭", "duration": "3 min", "desc": "Entraîne la vitesse d'épaulement. Les premiers tirs comptent — ADS le plus vite possible.", "intensity": "Medium", "benefit": "+Réactivité" }
+    ],
+    "checklist": [
+      "✅ Warm-up 10 min (aim trainer ou customs)",
+      "✅ Flick drill — 5 min",
+      "✅ Tracking drill — 5 min",
+      "✅ Recoil control — 5 min",
+      "✅ 1 game casual pour tester",
+      "✅ 3 games ranked / compétitif",
+      "✅ Analyse 1 mort (VOD review)",
+      "✅ Étirements (prévention TMS)"
+    ]
+  },
+
+  "motivation": [
+    "Tu ne perds pas — tu apprends.",
+    "Chaque game te rapproche du niveau pro.",
+    "Le meilleur joueur de demain s'entraîne aujourd'hui.",
+    "La discipline bat le talent qui ne travaille pas.",
+    "Un mauvais game n'est pas une défaite, c'est une leçon.",
+    "Les pros ont tous commencé au même niveau que toi.",
+    "Chaque mort t'apprend quelque chose. Écoute.",
+    "Consistence > Inspiration. Joue chaque jour.",
+    "Tu n'es qu'à une session d'entraînement du breakthrough.",
+    "Le tryhard d'aujourd'hui est le pro de demain.",
+    "Focus sur ce que tu contrôles : ton aim, ta tête, tes réglages.",
+    "Chaque ranked gagné est la preuve que tu progresses.",
+    "Les grands joueurs ne naissent pas — ils se construisent.",
+    "Analyse tes erreurs plutôt que de blâmer ta team.",
+    "Ta régularité vaut plus que ton talent naturel."
+  ],
+
+  "pseudos": {
+    "tryhard": {
+      "prefixes": ["Shadow", "Zayek", "Void", "Phantom", "Ghost", "Apex", "Storm", "Nex", "Viper", "Hex", "Rogue", "Cypher", "Wraith", "Specter", "Dark"],
+      "suffixes": ["X", "Pro", "TTV", "GG", "EZ", "Frag", "Kill", "God", "Elite", "Ace", "Zero", "One", "77", "99", "King"]
+    },
+    "chill": {
+      "prefixes": ["Lazy", "Vibing", "Sleepy", "Chillin", "Cozy", "Mellow", "Soft", "Easy", "Fluffy", "Smooth", "Lo-fi", "Cloud", "Drifting", "Casual", "Calm"],
+      "suffixes": ["Sniper", "Ghost", "Dude", "Guy", "Player", "Gamer", "Cat", "Bean", "Vibes", "Mode", "Life", "Lad", "Bro", "Soul", "Dream"]
+    }
+  }
+}

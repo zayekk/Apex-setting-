@@ -1,185 +1,321 @@
 {
-  "lastUpdate": "2026-04-07",
-  "version": "S4.2",
+  "lastUpdate": "2026-04-08",
+  "version": "Warzone S3 / Fortnite Ch7 S2 Showdown",
+  "source": "callofduty.com · epicgames.com · boostmatch.gg · pcgamer.com",
 
   "meta": {
     "warzone": [
       {
-        "name": "HRM-9 Phantom",
-        "type": "SMG",
+        "name": "MK35 ISR",
+        "type": "Assault Rifle",
         "tier": "S",
-        "ttk": "320ms",
-        "range": "Court/Moyen",
+        "ttk": "390ms",
+        "range": "Moyen / Long",
         "recoil": "Faible",
-        "style": ["Agressif", "Polyvalent"],
-        "attachments": ["Canon: Suppressor Mk4", "Crosse: Combat Pro", "Chargeur: 60 Balles", "Laser: FSS OLE-V", "Grip: Recoil Pad"],
-        "tip": "Idéal pour les rushes en intérieur. Couple avec un sniper pour le long range.",
-        "emoji": "🔫"
+        "style": ["Polyvalent", "Défensif"],
+        "attachments": [
+          "Canon: Suppressed Barrel (off minimap)",
+          "Grip: LTI Grip (recoil horizontal)",
+          "Crosse: Courser Stock (strafe speed)",
+          "Chargeur: 45 Balles",
+          "Laser: FSS OLE-V"
+        ],
+        "tip": "Nouveau S3 Warzone — meilleur AR du patch. Bullet velocity supérieure, suppressor obligatoire pour rester off-radar. Le pair HDR couvre 5m–500m sans faiblesse.",
+        "emoji": "⭐",
+        "source": "boostmatch.gg — Avr 2026"
       },
       {
-        "name": "XR-90 Tactical",
+        "name": "Peacekeeper MK1",
         "type": "Assault Rifle",
         "tier": "S",
         "ttk": "410ms",
-        "range": "Moyen/Long",
-        "recoil": "Moyen",
+        "range": "Moyen / Long",
+        "recoil": "Très Faible",
         "style": ["Défensif", "Polyvalent"],
-        "attachments": ["Canon: Longshot Barrel", "Viseur: VLK 4x", "Chargeur: 45 Balles", "Grip: Commando", "Crosse: Precision Stock"],
-        "tip": "La polyvalence absolue de la méta S4. Fonctionne à toutes les portées.",
-        "emoji": "⚡"
+        "attachments": [
+          "Canon: Monolithic Suppressor",
+          "Fût: Longest Barrel",
+          "Chargeur: Extended Mag 45",
+          "Crosse: Precision Stock",
+          "Grip: Commando Foregrip"
+        ],
+        "tip": "Buffé S2 Reloaded (mars 2026) — reste le AR le plus fiable. Low recoil, damage range généreuse. Le choix sûr à tous les niveaux. Utilisé par la majorité des joueurs haut rang.",
+        "emoji": "🔫",
+        "source": "gamer.org · wzhub.gg — Mar 2026"
       },
       {
-        "name": "Ghost-Tac Sniper",
+        "name": "HDR Sniper",
         "type": "Sniper",
-        "tier": "A",
+        "tier": "S",
         "ttk": "One Shot",
         "range": "Très Long",
         "recoil": "Nul",
         "style": ["Sniper", "Défensif"],
-        "attachments": ["Canon: 26.5 Match Grade", "Viseur: Forge Tac Delta 4", "Crosse: FSS Precision", "Munitions: .408 Subsonic", "Grip: FTAC Ripper 56"],
-        "tip": "OSK au torse avec le bon build. Maîtrise le repositionnement post-shot.",
-        "emoji": "🎯"
+        "attachments": [
+          "Canon: Max Bullet Velocity",
+          "Fût: Longest Barrel",
+          "Chargeur: Largest Mag",
+          "Grip: Recoil Pad",
+          "Viseur: Slot libre → Bullet Velocity"
+        ],
+        "tip": "Meilleur sniper du jeu S3. Associé au MK35 ISR pour le loadout optimal — couvre toutes les portées. Ghost perk obligatoire en deuxième loadout.",
+        "emoji": "🎯",
+        "source": "boostmatch.gg — Avr 2026"
       },
       {
-        "name": "Void-9 SMG",
+        "name": "Razer 9mm",
         "type": "SMG",
-        "tier": "A",
-        "ttk": "350ms",
+        "tier": "S",
+        "ttk": "280ms",
         "range": "Court",
-        "recoil": "Très Faible",
+        "recoil": "Moyen",
         "style": ["Agressif"],
-        "attachments": ["Canon: Cut Down Barrel", "Laser: Kimura RYL33", "Chargeur: 50 Balles Extended", "Grip: Sakin ZX Grip", "Crosse: Agile Stock"],
-        "tip": "Le meta du close range agressif. Mouvement maximal activé.",
-        "emoji": "💨"
+        "attachments": [
+          "Canon: Suppressor Mk4",
+          "Chargeur: 50 Balles Extended",
+          "Laser: Kimura RYL33",
+          "Crosse: Agile Combat Stock",
+          "Grip: Sakin ZX Grip"
+        ],
+        "tip": "TTK le plus rapide en close range — le SMG dominant du meta S3. Couple parfaitement avec Peacekeeper MK1 pour un loadout all-range. Incontournable en Resurgence.",
+        "emoji": "💨",
+        "source": "gamer.org · wzhub.gg — Mar 2026"
       },
       {
-        "name": "LMG Sentinel",
-        "type": "LMG",
-        "tier": "B",
-        "ttk": "390ms",
+        "name": "Voyak KT-3",
+        "type": "Assault Rifle",
+        "tier": "A",
+        "ttk": "430ms",
         "range": "Moyen",
+        "recoil": "Courbe (maîtrisable)",
+        "style": ["Agressif", "Polyvalent"],
+        "attachments": [
+          "Canon: Suppressor adapté",
+          "Viseur: 2–3x Tactical",
+          "Chargeur: Extended 40",
+          "Grip: Vertical Foregrip",
+          "Crosse: Combat Stock"
+        ],
+        "tip": "Ajouté S2 Reloaded comme récompense événement. Excellent AR mobile — recoil courbe unique mais maîtrisable. Top choix pour les joueurs qui veulent mobilité + puissance.",
+        "emoji": "⚡",
+        "source": "gamer.org — Mar 2026"
+      },
+      {
+        "name": "MK.78 LMG",
+        "type": "LMG",
+        "tier": "A",
+        "ttk": "420ms",
+        "range": "Moyen / Long",
         "recoil": "Moyen",
         "style": ["Défensif", "Polyvalent"],
-        "attachments": ["Canon: Heavy Barrel", "Viseur: Mk.23 Reflector", "Chargeur: 100 Balles", "Grip: Demo Cleanshot", "Crosse: Demo Fade"],
-        "tip": "100 balles pour tenir les zones. Peu de rechargement = avantage tactique.",
-        "emoji": "🛡️"
+        "attachments": [
+          "Canon: Monolithic Suppressor",
+          "Fût: Heavy Barrel",
+          "Chargeur: 100 Balles",
+          "Viseur: Forge Tac Delta 4x",
+          "Grip: Demo Cleanshot"
+        ],
+        "tip": "Buffé S2 Reloaded. 100 balles pour tenir les zones sans recharger. En Black Ops Royale, upgrader un MK.78 en full kitted = beam dévastateur en late game.",
+        "emoji": "🛡️",
+        "source": "gamer.org — Mar 2026"
       },
       {
-        "name": "Phantom-AR Elite",
-        "type": "Assault Rifle",
-        "tier": "B",
-        "ttk": "430ms",
+        "name": "VST SMG",
+        "type": "SMG",
+        "tier": "A",
+        "ttk": "300ms",
+        "range": "Court / Moyen",
+        "recoil": "Vertical élevé",
+        "style": ["Agressif"],
+        "attachments": [
+          "Chargeur: 50 Balles",
+          "Canon: Cut Down Barrel",
+          "Laser: Kimura RYL33",
+          "Grip: Sakin ZX",
+          "Crosse: Agile Stock"
+        ],
+        "tip": "Nouveau S3 — fire rate très élevé, DPS compétitif. Recul vertical important : maîtriser le spray est obligatoire. Dangereux dans les bonnes mains, frustrant sinon.",
+        "emoji": "🔴",
+        "source": "boostmatch.gg — Avr 2026"
+      },
+      {
+        "name": "Swordfish A1",
+        "type": "Marksman Rifle",
+        "tier": "A",
+        "ttk": "Burst 3-tirs",
         "range": "Long",
-        "recoil": "Élevé",
+        "recoil": "Faible",
         "style": ["Sniper", "Défensif"],
-        "attachments": ["Canon: Marksman Barrel", "Viseur: VLK 6x Aimpoint", "Chargeur: 30 Balles", "Grip: Crosse Legit Pro", "Laser: FSS OLE-V Laser"],
-        "tip": "Excellent pour les séquences mid-long. Maîtrise le recul en burst.",
-        "emoji": "🎖️"
+        "attachments": [
+          "Viseur: VLK 6x Aimpoint",
+          "Canon: Match Grade Barrel",
+          "Chargeur: 20 Balles",
+          "Grip: FTAC Ripper 56",
+          "Crosse: FSS Precision"
+        ],
+        "tip": "Ajouté S2 Reloaded. Burst 3 tirs — one-burst facile sur damage range généreux. Excellent sur PC / M&K. Option sérieuse pour les snipers qui veulent plus de volume de feu.",
+        "emoji": "🎖️",
+        "source": "gamer.org — Mar 2026"
       }
     ],
     "fortnite": [
       {
-        "name": "Striker AR MK2",
+        "name": "Deadeye AR",
         "type": "Assault Rifle",
         "tier": "S",
-        "ttk": "350ms",
-        "range": "Moyen/Long",
-        "recoil": "Faible",
-        "style": ["Polyvalent", "Agressif"],
-        "attachments": ["Scope: 2x Tactical", "Mag: Extended", "Stock: Combat"],
-        "tip": "Le meilleur AR de la saison. Fonctionne en box fight comme en build fight.",
-        "emoji": "⭐"
+        "ttk": "340ms",
+        "range": "Moyen / Long",
+        "recoil": "Très Faible",
+        "style": ["Polyvalent", "Défensif", "Agressif"],
+        "attachments": [
+          "Rareté: Légendaire (Gold) recommandé",
+          "Ammo: Medium Bullets",
+          "Dispo: Sol, Coffres, Black Market"
+        ],
+        "tip": "#1 AR de Fortnite Ch7 S2 Showdown selon PC Gamer (Avr 2026). Précision chirurgicale à toutes portées. S'adapte parfaitement à tous les styles. Prendre en légendaire dès que possible.",
+        "emoji": "⭐",
+        "source": "pcgamer.com — Avr 2026"
       },
       {
-        "name": "Nova Shotgun",
+        "name": "Sentinel Pump Shotgun",
         "type": "Shotgun",
         "tier": "S",
-        "ttk": "OSK",
+        "ttk": "OSK headshot",
         "range": "Court",
         "recoil": "Moyen",
-        "style": ["Agressif"],
-        "attachments": ["Ammo: Slug Shells", "Barrel: Choke", "Grip: Combat"],
-        "tip": "OSK possible en hitbox tête. Le combo + AR domine la méta box fight.",
-        "emoji": "💥"
-      },
-      {
-        "name": "Phantom SMG",
-        "type": "SMG",
-        "tier": "A",
-        "ttk": "300ms",
-        "range": "Court",
-        "recoil": "Très Faible",
         "style": ["Agressif", "Polyvalent"],
-        "attachments": ["Mag: Drum 50", "Barrel: Suppressed", "Stock: Agile"],
-        "tip": "Parfait pour les charges rapides. Idéal pour les joueurs mobiles.",
-        "emoji": "🌀"
+        "attachments": [
+          "Rareté: Légendaire / Mythique",
+          "Dégâts tête: 200 (Mythique)",
+          "Dispo: Coffres, Black Market (garanti)"
+        ],
+        "tip": "Dominant depuis Ch6 — toujours S-tier en Ch7 S2. 200 dégâts headshot Mythique disponible garanti au Black Market. Obligatoire dans tout loadout compétitif.",
+        "emoji": "💥",
+        "source": "pcgamer.com · gamer.org — 2026"
       },
       {
-        "name": "Recon Sniper",
+        "name": "Veiled Precision SMG",
+        "type": "SMG",
+        "tier": "S",
+        "ttk": "290ms",
+        "range": "Court / Moyen",
+        "recoil": "Nul",
+        "style": ["Agressif", "Polyvalent"],
+        "attachments": [
+          "Silencieux intégré (natif)",
+          "Red dot intégré (hitscan)",
+          "Chargeur: 21 balles",
+          "Dispo: Coffres, Nid de Ruche, Sol"
+        ],
+        "tip": "Hitscan + 0 recul + silencieux natif = arme brisée. Certains pros remplacent leur AR par ce SMG. Incontournable en Zero Build et Ranked Ch7.",
+        "emoji": "🌀",
+        "source": "oneesports.gg · skycoach.gg — 2026"
+      },
+      {
+        "name": "Forsaken Vow Blade",
+        "type": "Mobilité / Melee",
+        "tier": "A",
+        "ttk": "Dash + Dégâts",
+        "range": "Court (melee)",
+        "recoil": "N/A",
+        "style": ["Agressif", "Polyvalent"],
+        "attachments": [
+          "Collab: Kill Bill × Fortnite (Ch7 S2)",
+          "Usage principal: Dash ability",
+          "Dispo: Coffres spéciaux Ch7"
+        ],
+        "tip": "Utilisé principalement pour son DASH — entre dans n'importe quelle box en 1 seconde. Révolutionne les rotations agressives. Combo brisé avec Sentinel Pump.",
+        "emoji": "⚔️",
+        "source": "skycoach.gg — Fév 2026"
+      },
+      {
+        "name": "Iron Pump Shotgun",
+        "type": "Shotgun",
+        "tier": "A",
+        "ttk": "OSK précis",
+        "range": "Court",
+        "recoil": "Élevé",
+        "style": ["Agressif"],
+        "attachments": [
+          "Rareté: Epic / Legendary",
+          "Ammo: Slug Shells",
+          "Dispo: Sol, Coffres"
+        ],
+        "tip": "Alternative skill-based au Sentinel — plus punissant mais plus reward. OSK possible pour les bons aimers. Toujours populaire en ranked Ch7 S2 Showdown.",
+        "emoji": "🔫",
+        "source": "skycoach.gg — Fév 2026"
+      },
+      {
+        "name": "Reaper Sniper",
         "type": "Sniper",
         "tier": "A",
-        "ttk": "One Shot",
+        "ttk": "OSK tête",
         "range": "Très Long",
         "recoil": "Nul",
-        "style": ["Sniper"],
-        "attachments": ["Scope: 4x Precision", "Ammo: High Velocity", "Stock: Precision"],
-        "tip": "OSK tête garantie. Repositionne-toi immédiatement après chaque tir.",
-        "emoji": "🎯"
+        "style": ["Sniper", "Polyvalent"],
+        "attachments": [
+          "Viseur: 4x intégré",
+          "Ammo: Heavy Bullets",
+          "Rareté: Epic minimum"
+        ],
+        "tip": "Sniper polyvalent et fiable — ouvre les fights à longue distance. Combo optimal: Deadeye AR + Sentinel Pump + Reaper pour couvrir toutes les portées.",
+        "emoji": "🎯",
+        "source": "cyberyawn.com · exitlag.com — 2026"
       }
     ]
   },
 
   "tips": {
     "universal": [
-      { "cat": "Positionnement", "icon": "🗺️", "title": "Hauteur = Avantage", "desc": "Sécurise toujours le high ground. La hauteur te donne vision et couverture supérieure. +40% de survie en moyenne." },
-      { "cat": "Gunfight", "icon": "⚔️", "title": "Burst Control", "desc": "Tire en bursts de 3-4 balles au lieu d'arroser. Le recul est exponentiel. Contrôle = précision." },
-      { "cat": "Rotation", "icon": "🔄", "title": "Move Avant la Zone", "desc": "Rotate toujours avant la fermeture. Les rotations tardives = 80% des morts en fin de game." },
-      { "cat": "Mental", "icon": "🧠", "title": "Analyse tes Morts", "desc": "Après chaque mort, demande-toi pourquoi. Positionnement ? Timing ? Réglages ? C'est ainsi qu'on progresse." },
-      { "cat": "Aim", "icon": "🎯", "title": "Warm-up Obligatoire", "desc": "10 minutes de warm-up avant chaque session. Les pros le font sans exception. Aim trainer ou customs." },
-      { "cat": "Performance", "icon": "⚡", "title": "Optimise ton PC/Console", "desc": "Ferme toutes les applications en arrière-plan. Chaque FPS gagné améliore ton temps de réaction." }
+      { "cat": "Positionnement", "icon": "🗺️", "title": "Hauteur = Avantage", "desc": "Sécurise toujours le high ground. La hauteur te donne vision et couverture supérieure. +40% de survie en moyenne selon les stats 2026." },
+      { "cat": "Gunfight", "icon": "⚔️", "title": "Burst Control", "desc": "Tire en bursts de 3-4 balles au lieu d'arroser. Le recul est exponentiel — contrôle = précision = victoire dans la méta S3 2026." },
+      { "cat": "Rotation", "icon": "🔄", "title": "Move Avant la Zone", "desc": "Rotate toujours avant la fermeture du cercle. Les rotations tardives = 80% des morts en fin de game. Anticipe, ne réagis pas." },
+      { "cat": "Mental", "icon": "🧠", "title": "Analyse tes Morts", "desc": "Après chaque mort, demande-toi pourquoi. Positionnement ? Timing ? Réglages ? C'est la méthode de tous les pros pour progresser rapidement." },
+      { "cat": "Aim", "icon": "🎯", "title": "Warm-up Obligatoire", "desc": "10 minutes de warm-up avant chaque session. Les pros le font sans exception — aim trainer, customs ou firing range." },
+      { "cat": "Performance", "icon": "⚡", "title": "Optimise ton Setup", "desc": "Ferme toutes les apps en arrière-plan. Chaque FPS gagné réduit l'input lag. La performance technique est aussi importante que les réglages." }
     ],
     "byStyle": {
       "aggressive": [
-        { "icon": "🔥", "title": "Entry fragger mindset", "desc": "Annonce toujours ta présence en entrant le premier. Surprends l'adversaire par ta vitesse." },
-        { "icon": "💨", "title": "Slide-cancel en permanence", "desc": "Le mouvement constant te rend imprévisible. Slide-cancel toutes les 2 secondes en engagement." },
-        { "icon": "⚡", "title": "SMG + AR combo", "desc": "Porte toujours un SMG pour le close et un AR pour le mid. Adapte ton arme à la distance." }
+        { "icon": "🔥", "title": "Entry fragger mindset", "desc": "Surprends l'adversaire par la vitesse. L'initiative donne 60% de l'avantage en gunfight — sois le premier à tirer, toujours." },
+        { "icon": "💨", "title": "Slide-cancel permanent", "desc": "Mouvement constant = imprévisible et difficile à tracker. Slide-cancel toutes les 2 secondes en engagement — c'est le standard méta 2026." },
+        { "icon": "⚡", "title": "Combo SMG + AR obligatoire", "desc": "SMG pour le close, AR pour le mid. En S3 Warzone: Razer 9mm + MK35 ISR. En Fortnite Ch7: Veiled Precision + Deadeye AR." }
       ],
       "defensive": [
-        { "icon": "🛡️", "title": "Choke points", "desc": "Identifie les points de passage obligatoires. Tiens-les et laisse les ennemis venir à toi." },
-        { "icon": "👁️", "title": "Intel avant tout", "desc": "Écoute les pas, utilise la mini-map. L'information est ton atout principal." },
-        { "icon": "🔄", "title": "Rotation sécurisée", "desc": "Ne prends jamais de risques inutiles. Une mort sans kill = perte nette. Joue les échanges favorables." }
+        { "icon": "🛡️", "title": "Choke points stratégiques", "desc": "Identifie les passages obligatoires et tiens-les. Tu choisis le terrain = tu choisis la fight. L'avantage défensif en 2026 est réel." },
+        { "icon": "👁️", "title": "Intel avant tout", "desc": "Écoute les pas, utilise la mini-map, partage l'info en équipe. La conscience situationnelle vaut autant que le skill mécanique en 2026." },
+        { "icon": "🔄", "title": "Rotations sécurisées only", "desc": "Ne prends jamais de risques sans avantage clair. Une mort sans kill = perte nette. Joue uniquement les échanges favorables." }
       ],
       "sniper": [
-        { "icon": "🎯", "title": "Pixel perfect ADS", "desc": "Ralentis ta sensi en ADS. La précision vaut plus que la vitesse en long range." },
-        { "icon": "📐", "title": "Anticipe le mouvement", "desc": "Vise là où l'ennemi VA, pas là où il est. Le bullet travel time est réel." },
-        { "icon": "🌬️", "title": "Contrôle de la respiration", "desc": "Fais une pause avant chaque tir crucial. Même en jeu, le timing mental compte." }
+        { "icon": "🎯", "title": "Pixel perfect ADS", "desc": "Réduis ta sensibilité en ADS. Un tir parfait vaut plus que 5 tirs proches — la précision bat toujours la vitesse en long range." },
+        { "icon": "📐", "title": "Anticipe le mouvement", "desc": "Vise là où l'ennemi VA, pas là où il EST. Le bullet travel time est réel — anticiper le mouvement sépare les bons snipers des pros." },
+        { "icon": "🌬️", "title": "Repositionne après chaque shot", "desc": "Ne reste jamais au même endroit post-tir. Les killcams 2026 informent instantanément — le repositionnement est une compétence fondamentale." }
       ],
       "polyvalent": [
-        { "icon": "🔀", "title": "Lit le jeu en temps réel", "desc": "Adapte-toi constamment. Agressif si tu domines, défensif si tu es en danger." },
-        { "icon": "🗣️", "title": "Communication clé", "desc": "Partage l'info à ton équipe. Le polyvalent est souvent le meilleur shot-caller." },
-        { "icon": "📦", "title": "Loot efficace", "desc": "Équipe-toi vite. Le polyvalent a besoin d'options. Priorise le chargeur et les kits." }
+        { "icon": "🔀", "title": "Adapte-toi en temps réel", "desc": "Agressif quand tu domines, défensif sous pression. La lecture du jeu en temps réel est le superpower du joueur polyvalent." },
+        { "icon": "🗣️", "title": "Shot-calling pour ta team", "desc": "Partage l'info constamment. Le polyvalent voit tout — utilise ta vision globale pour guider l'équipe et prendre les décisions clés." },
+        { "icon": "📦", "title": "Loot rapide, adaptation rapide", "desc": "Équipe-toi vite et adapte ton loadout aux armes disponibles. Le vrai polyvalent est dangereux avec n'importe quelle arme méta 2026." }
       ]
     }
   },
 
   "training": {
     "drills": [
-      { "id": "flick", "name": "Flick Aim", "icon": "⚡", "duration": "5 min", "desc": "Cible des ennemis lointains en un seul mouvement rapide. Améliore les réflexes et la précision sur cibles mobiles.", "intensity": "Medium", "benefit": "+Réflexes" },
-      { "id": "tracking", "name": "Tracking Smooth", "icon": "👁️", "duration": "5 min", "desc": "Suis une cible en mouvement continu. Entraîne ton aim à coller sur les ennemis qui courent.", "intensity": "Low", "benefit": "+Tracking" },
-      { "id": "recoil", "name": "Recoil Control", "icon": "🎯", "duration": "5 min", "desc": "Spray une cible fixe, puis analyse le pattern. Mémorise et compense le recul de ton arme META.", "intensity": "High", "benefit": "+Précision" },
-      { "id": "micro", "name": "Micro Adjustments", "icon": "🔬", "duration": "5 min", "desc": "Petits ajustements de visée sur des cibles minuscules. Parfait pour le head-glitching.", "intensity": "High", "benefit": "+Précision" },
-      { "id": "movement", "name": "Movement + Aim", "icon": "💨", "duration": "5 min", "desc": "Vise en te déplaçant constamment. Simule de vrais gunfights avec slide/jump.", "intensity": "High", "benefit": "+Combat" },
-      { "id": "ads", "name": "ADS Speed", "icon": "🔭", "duration": "3 min", "desc": "Entraîne la vitesse d'épaulement. Les premiers tirs comptent — ADS le plus vite possible.", "intensity": "Medium", "benefit": "+Réactivité" }
+      { "id": "flick", "name": "Flick Aim", "icon": "⚡", "duration": "5 min", "desc": "Cible des ennemis à distance en un seul mouvement rapide et précis. Améliore tes réflexes et ta précision sur cibles mobiles.", "intensity": "Medium", "benefit": "+Réflexes" },
+      { "id": "tracking", "name": "Tracking Smooth", "icon": "👁️", "duration": "5 min", "desc": "Suis une cible en mouvement continu sans la perdre. Entraîne ton aim à coller sur les ennemis en sprint, slide ou saut.", "intensity": "Low", "benefit": "+Tracking" },
+      { "id": "recoil", "name": "Recoil Control", "icon": "🎯", "duration": "5 min", "desc": "Spray sur cible fixe, analyse le pattern. Mémorise et compense le recul des armes méta S3 (MK35 ISR, Razer 9mm, Deadeye AR).", "intensity": "High", "benefit": "+Précision" },
+      { "id": "micro", "name": "Micro Adjustments", "icon": "🔬", "duration": "5 min", "desc": "Petits ajustements sur cibles minuscules ou head-glitches. Perfectionne les shots difficiles que tout le monde rate en ranked.", "intensity": "High", "benefit": "+Précision" },
+      { "id": "movement", "name": "Movement + Aim", "icon": "💨", "duration": "5 min", "desc": "Vise tout en te déplaçant — slide, jump, sprint. Simule de vrais gunfights avec la mobilité agressive de la méta 2026.", "intensity": "High", "benefit": "+Combat" },
+      { "id": "ads", "name": "ADS Speed", "icon": "🔭", "duration": "3 min", "desc": "Entraîne la vitesse d'épaulement depuis toutes les positions. Les premiers tirs comptent — ADS le plus vite possible.", "intensity": "Medium", "benefit": "+Réactivité" }
     ],
     "checklist": [
-      "✅ Warm-up 10 min (aim trainer ou customs)",
-      "✅ Flick drill — 5 min",
-      "✅ Tracking drill — 5 min",
-      "✅ Recoil control — 5 min",
-      "✅ 1 game casual pour tester",
-      "✅ 3 games ranked / compétitif",
-      "✅ Analyse 1 mort (VOD review)",
-      "✅ Étirements (prévention TMS)"
+      "Warm-up 10 min (aim trainer ou customs)",
+      "Flick drill — 5 min",
+      "Tracking drill — 5 min",
+      "Recoil control — 5 min (arme méta S3)",
+      "1 game décontracté pour tester les réglages",
+      "3 games ranked / compétitif",
+      "Analyse 1 mort (VOD review)",
+      "Étirements (prévention douleurs)"
     ]
   },
 
@@ -193,22 +329,22 @@
     "Chaque mort t'apprend quelque chose. Écoute.",
     "Consistence > Inspiration. Joue chaque jour.",
     "Tu n'es qu'à une session d'entraînement du breakthrough.",
-    "Le tryhard d'aujourd'hui est le pro de demain.",
     "Focus sur ce que tu contrôles : ton aim, ta tête, tes réglages.",
-    "Chaque ranked gagné est la preuve que tu progresses.",
+    "Chaque ranked gagné prouve que tu progresses.",
     "Les grands joueurs ne naissent pas — ils se construisent.",
     "Analyse tes erreurs plutôt que de blâmer ta team.",
-    "Ta régularité vaut plus que ton talent naturel."
+    "Ta régularité vaut plus que ton talent naturel.",
+    "Un pro, c'est un amateur qui n'a jamais arrêté d'essayer."
   ],
 
   "pseudos": {
     "tryhard": {
-      "prefixes": ["Shadow", "Zayek", "Void", "Phantom", "Ghost", "Apex", "Storm", "Nex", "Viper", "Hex", "Rogue", "Cypher", "Wraith", "Specter", "Dark"],
-      "suffixes": ["X", "Pro", "TTV", "GG", "EZ", "Frag", "Kill", "God", "Elite", "Ace", "Zero", "One", "77", "99", "King"]
+      "prefixes": ["Shadow", "Zayek", "Void", "Phantom", "Ghost", "Apex", "Storm", "Nex", "Viper", "Hex", "Rogue", "Cypher", "Wraith", "Specter", "Dark", "Iron", "Zero", "Nova", "Venom", "Blaze"],
+      "suffixes": ["X", "Pro", "TTV", "GG", "EZ", "Frag", "Kill", "God", "Elite", "Ace", "Zero", "One", "77", "99", "King", "Slayer", "Beast", "Fury", "Rage", "Force"]
     },
     "chill": {
-      "prefixes": ["Lazy", "Vibing", "Sleepy", "Chillin", "Cozy", "Mellow", "Soft", "Easy", "Fluffy", "Smooth", "Lo-fi", "Cloud", "Drifting", "Casual", "Calm"],
-      "suffixes": ["Sniper", "Ghost", "Dude", "Guy", "Player", "Gamer", "Cat", "Bean", "Vibes", "Mode", "Life", "Lad", "Bro", "Soul", "Dream"]
+      "prefixes": ["Lazy", "Vibing", "Sleepy", "Chillin", "Cozy", "Mellow", "Soft", "Easy", "Fluffy", "Smooth", "Lo-fi", "Cloud", "Drifting", "Casual", "Calm", "Breezy", "Hazy", "Quiet", "Wander", "Dreamy"],
+      "suffixes": ["Sniper", "Ghost", "Dude", "Guy", "Player", "Gamer", "Cat", "Bean", "Vibes", "Mode", "Life", "Lad", "Bro", "Soul", "Dream", "Wave", "Nap", "Yawn", "Drift", "Mist"]
     }
   }
 }

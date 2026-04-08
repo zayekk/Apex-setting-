@@ -339,7 +339,7 @@
 
   "pseudos": {
     "tryhard": {
-      "prefixes": ["Shadow", "Zayek", "Void", "Phantom", "Ghost", "Apex", "Storm", "Nex", "Viper", "Hex", "Rogue", "Cypher", "Wraith", "Specter", "Dark", "Iron", "Zero", "Nova", "Venom", "Blaze"],
+      "prefixes": ["Shadow", "Zyrox", "Void", "Phantom", "Ghost", "Apex", "Storm", "Nex", "Viper", "Hex", "Rogue", "Cypher", "Wraith", "Specter", "Dark", "Iron", "Zero", "Nova", "Venom", "Blaze"],
       "suffixes": ["X", "Pro", "TTV", "GG", "EZ", "Frag", "Kill", "God", "Elite", "Ace", "Zero", "One", "77", "99", "King", "Slayer", "Beast", "Fury", "Rage", "Force"]
     },
     "chill": {
